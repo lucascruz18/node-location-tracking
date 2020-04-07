@@ -10,7 +10,7 @@ const socketServer = require('./utils/socket-server');
 
 const routes = require('./routes');
 
-require('./database');
+// require('./database');
 
 class App {
   constructor() {

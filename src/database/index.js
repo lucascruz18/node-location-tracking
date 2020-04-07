@@ -1,16 +1,16 @@
-const Mongoose = require('mongoose');
+// const Mongoose = require('mongoose');
 
-class Database {
-  constructor() {
-    this.mongo();
-  }
+// class Database {
+//   constructor() {
+//     this.mongo();
+//   }
 
-  mongo() {
-    this.mongoConnection = Mongoose.connect(process.env.MONGO_URL, {
-      useNewUrlParser: true,
-      useFindAndModify: true,
-    });
-  }
-}
+//   mongo() {
+//     this.mongoConnection = Mongoose.connect(process.env.MONGO_URL, {
+//       useNewUrlParser: true,
+//       useFindAndModify: true,
+//     });
+//   }
+// }
 
-module.exports = new Database();
+// module.exports = new Database();
